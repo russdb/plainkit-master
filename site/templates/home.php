@@ -1,12 +1,13 @@
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="<?= $site->description()->html() ?>">
-  <title><?= $site->title()->html() ?></title>
-</head>
 <body>
   <?php snippet('header') ?>
   <!-- DEBUG: <?= $page->note()->html() ?> -->
-  <img src="<?= image('hero.jpg')->url() ?>" />
+  <section class="hero">
+    <img src="<?= image('hero.jpg')->url() ?>" />
+  </section>
+  <main>
+    <?= markdown($page->Text()) ?>
+  </main>
+
+  <?php snippet('footer') ?>
 </body>
 </html>
