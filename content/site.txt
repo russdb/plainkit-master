@@ -1,1 +1,7 @@
 Title: FREE Ultimate Guide to CDA Interviews
+
+Author: David Russell  
+
+Description: For the interview process!  
+
+location: github!

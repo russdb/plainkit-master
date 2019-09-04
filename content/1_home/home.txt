@@ -1,5 +1,6 @@
-Title: Home
-
+Title: home
+----
+note: this is content/home/home.txt, $page is this file.
 ----
 
 Headline: CDA Interview Guide
