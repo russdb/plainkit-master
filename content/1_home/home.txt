@@ -8,7 +8,7 @@ Headline: CDA Interview Guide
 
 Text:
 
-*Ultimate Guide to CDA Structured Interview: Tips & Proven Strategies to Help You Prepare & Ace Your CDA Interview*
+Tips & Proven Strategies to Help You Prepare & Ace Your CDA Interview*
 <br>
 
 <em>Overview</em>:
@@ -89,4 +89,4 @@ Note: this is content/home/home.txt, $page is this file.
 
 ----
 
-Intro: Ultimate Guide to CDA Structured Interview: Tips & Proven Strategies to Help You Prepare & Ace Your CDA Interview
+Intro: Ultimate Guide to CDA Structured Interview

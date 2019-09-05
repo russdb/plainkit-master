@@ -8,18 +8,20 @@
  */
 ?>
 
-  </div>
+</div>
 
   <footer class="footer">
-    <a href="<?= url() ?>">&copy; <?= date('Y') ?> / <?= $site->title() ?></a>
+    <div>
+      &copy; 2013 - <?= date('Y') ?> <?= $site->name()->html() ?>  
+      All rights reserved. &nbsp;
+      <a href="#">Disclaimer & Privacy Policy</a> &nbsp; <a href="mailto:#">Contact Us</a>
+    </div>
 
-    <?php if ($about = page('about')): ?>
-    <nav class="social">
-      <?php foreach ($about->social()->toStructure() as $social): ?>
-      <a href="<?= $social->url() ?>"><?= $social->platform() ?></a>
-      <?php endforeach ?>
-    </nav>
-    <?php endif ?>
+    <div class="socialIcons"style="text-align: right;">
+      <a href="#"><i class="fab fa-facebook-f"></i></a> 
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+
   </footer>
 
 </body>

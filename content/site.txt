@@ -1,7 +1,9 @@
 Title: FREE Ultimate Guide to CDA Interviews
-
+----
+name: BeMo Academic Consulting Inc
+----
 Author: David Russell  
-
+----
 Description: For the interview process!  
-
+----
 location: github!

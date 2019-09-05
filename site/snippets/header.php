@@ -16,7 +16,7 @@
 
   <!-- The title tag we show the title of our site and the title of the current page -->
   <title><?= $site->title() ?> | <?= $page->title() ?></title>
-
+  <script src="https://kit.fontawesome.com/6a85224012.js"></script>
   <!-- Stylesheets can be included using the `css()` helper. Kirby also provides the `js()` helper to include script file. 
         More Kirby helpers: https://getkirby.com/docs/reference/templates/helpers -->
   <?= css(['assets/css/index.css', '@auto']) ?>
@@ -27,9 +27,11 @@
   <div class="page">
     <header class="header">
       <!-- In this link we call `$site->url()` to create a link back to the homepage -->
-      <a class="logo" href="<?= $site->url() ?>">
-      <img src="<?= url('assets/bemo-logo2.png') ?>" />
-      </a>
+      <div class="brand">
+        <a class="logo" href="<?= $site->url() ?>">
+        <img src="<?= url('assets/bemo-logo2.png') ?>" />
+        </a>
+      </div>
 
       <nav id="menu" class="menu">
         <?php 
