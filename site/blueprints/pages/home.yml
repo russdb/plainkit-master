@@ -10,6 +10,12 @@ columns:
       content:
         type: fields
         fields:
+          metatitle:
+            label: Meta-Title
+            type: text
+          metadescription:
+            label: Meta-Description
+            type: text
           headline:
             label: Headline
             type: text
@@ -21,13 +27,7 @@ columns:
   sidebar:
     width: 1/3
     sections:
-
-      # a list of subpages
-      #pages:
-       # type: pages
-       # headline: Subpages
-
-      # a list of files
+      #a list of files 
       files:
         type: files
         headline: Choose the Hero Image

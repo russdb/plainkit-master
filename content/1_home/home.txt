@@ -2,6 +2,14 @@ Title: home
 
 ----
 
+Metatitle: This is the meta-title
+
+----
+
+Metadescription: meta description
+
+----
+
 Headline: CDA Interview Guide
 
 ----
@@ -82,6 +90,14 @@ Click here to learn more about our money-back guarantee CDA interview preparatio
 Reference:
 <br>
 Poole A., Catano, VM., and Cunningham, DP. Predicting performance in Canadian dental schools: the new CDA structured interview, a new personality assessment, and the DAT. Journal of Dental Education. 2007; 71: 664 - 676.
+
+----
+
+Meta: sdfsdf
+
+----
+
+Description: this is the asfsad a
 
 ----
 
