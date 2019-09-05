@@ -12,6 +12,12 @@
 <head>
 
   <meta charset="utf-8">
+
+  <?php if ($site->Noindex()->isFalse()): ?>
+    <meta name="robots" content="noindex">
+  <?php endif ?>
+  
+
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
   <!-- The title tag we show the title of our site and the title of the current page -->
